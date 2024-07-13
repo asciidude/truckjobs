@@ -3,6 +3,8 @@ Truck Jobs is a plugin that allows players to take on the open road via truck dr
 
 **Note:** Payouts are there for roleplay aspect. I may work on some sort of standalone banking framework if this gets enough traction and enable this to work with that.
 
+[Preview Video](https://youtu.be/eRzUKp6cwjc)
+
 ## Features
 - :eyes: **Job Dashboard:** A user-friendly interface to view and select available jobs.
 - :construction_worker_man: **Dynamic Job Assignments:** Jobs are dynamically assigned based off the selected truck.
