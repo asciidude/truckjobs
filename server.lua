@@ -1,4 +1,4 @@
-if keepASCIIArt then
+if Config.keepASCIIArt then
     print('                       _____________________________________________________')
     print('                      |                                                     |')
     print('             _______  |                                                     |')
