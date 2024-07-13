@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    flex-direction: column;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    pointer-events: none;
+    background: transparent;
+}
+
+/* Modals */
+.modal {
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.modal .content {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background: rgb(20, 20, 20);
+    filter: drop-shadow(0.5);
+    border: 0;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    height: 80%;
+    max-height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+}
+
+.modal .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.modal .input-group p {
+    margin: 0;
+    flex: 1;
+    text-align: left;
+}
+
+.input-group button {
+    padding: 5px 10px;
+    color: white;
+    background: rgb(48, 120, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal .content .control {
+    background: rgb(10, 10, 10);
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
