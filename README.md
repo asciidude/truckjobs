@@ -14,7 +14,7 @@ Truck Jobs is a plugin that allows players to take on the open road via truck dr
 - :white_circle: **Blip Integration:** Blips on the map for vehicles and delivery points.
 - :gear: **Extremely Configurable:** Lots of configuration options to ensure this plugin is exactly how you want it!
 - :oncoming_automobile: **Automatic Vehicle Cleanup:** Cleans up trucks when the job ending is triggered.
-- :person_juggling: **Optimized for Multiple Players:** This plugin has been optimized for multiple players to use it at once.
+- 🤹‍♂️ **Optimized for Multiple Players:** This plugin has been optimized for multiple players to use it at once.
 
 ## Installation
 - Drag and drop `truckjobs` into your `/resources` folder
